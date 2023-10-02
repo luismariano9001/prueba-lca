@@ -1,7 +1,7 @@
 Pasos realizados para el desarrollo de los microservicios:
   *** Microservicio waste-manager ***
   1 - Primeramente haciendo uso de la aplicacion web spring Initialazr fue generado un proyecto base 
-      con algunas de las depencias necesarias para este proyecto.
+      con algunas de las dependencias necesarias para este proyecto.
   2 - A partir del modelo ofrecido en el ejercicio se paso a mapear ambas entidades y crear la respectiva
       interfaz Repositry perteneciente a esa Entidad.
   3 - Fueron creados DTO(data transfer objects) de entrada y salida.
@@ -13,7 +13,7 @@ Pasos realizados para el desarrollo de los microservicios:
   
  *** Microservicio Configserver***
   1 - Primeramente haciendo uso de la aplicacion web spring Initialazr fue generado un proyecto base 
-      con algunas de las depencias necesarias para este proyecto.
+      con algunas de las dependencias necesarias para este proyecto.
   2 - La clase principal del proyecto fue anotada con la anotacion @EnableConfigServer.
   3 - Fue creado en Github un repositorio el cual contiene en la rama master los archivos de configuracion 
       que seran utilizados por los microservicios.
@@ -21,13 +21,13 @@ Pasos realizados para el desarrollo de los microservicios:
   
   *** Microservicio gatewayservice ****
   1 - Primeramente haciendo uso de la aplicacion web spring Initialazr fue generado un proyecto base 
-      con algunas de las depencias necesarias para este proyecto.
+      con algunas de las dependencias necesarias para este proyecto.
   2 - La clase principal del proyecto fue anotada con la anotacion @EnableDiscoveryClient.
   3 - Por ultimo fue creado el archivo application.yml con la configuracion necesaria.
   
   *** Microservicio Namingservice ***
   1 - Primeramente haciendo uso de la aplicacion web spring Initialazr fue generado un proyecto base 
-      con algunas de las depencias necesarias para este proyecto.
+      con algunas de las dependencias necesarias para este proyecto.
   2 - La clase principal del proyecto fue anotada con la anotacion @EnableEurekaServer.
   3 - Por ultimo fue creado el archivo application.yml con la configuracion necesaria.
   
